@@ -55,7 +55,7 @@ while True:
 
     elif opcao == "e":
         print("\n**************** EXTRATO ****************")
-        print("Não foram realizadas movimentações." if not extrato else extrato) # Se trata de um if ternário, a variável extrato inicia vazia, caso ela permaneça vazia (if not), será apresentada a mensagem padrão. Caso ela não esteja vazia, as informações bancarias serão mostradas
+        print("Não foram realizadas movimentações." if not extrato else extrato) # Se trata de um if ternário, a variável extrato inicia vazia, caso ela permaneça vazia (if not), será apresentada a mensagem padrão. Caso ela não esteja vazia, as informações bancarias serão mostradas.
         print(f"\nSaldo: R$ {saldo:.2f}")
         print("*****************************************")
 
